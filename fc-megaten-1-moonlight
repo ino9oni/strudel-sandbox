@@ -1,6 +1,6 @@
 //title : 窓明り
 //composer : Masuko Tsukasa
-//strudel notes writer : ino9oni
+//strudel REPL writer: ino9oni
 setcpm(50)
 $:note(`<
 [c4 e4 g4 f4 d4 b3]!8
