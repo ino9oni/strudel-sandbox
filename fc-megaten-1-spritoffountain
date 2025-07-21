@@ -1,0 +1,42 @@
+//title : Sprit Of Fountain
+//composer : Masuko Tsukasa
+//strudel REPL writer: ino9oni
+setcpm(30)
+$:note(`<
+[c4 d4 b3 c4 a3 b3 g3 a3 f#3 g3 e3 f#3 d3 e3 c3 d3]
+[<c3>]
+[c4 d4 b3 c4 a3 b3 g3 a3 f#3 g3 e3 f#3 d3 e3 c3 d3]
+[<g3>]
+>`).sound("triangle")
+  .room(0.8) 
+  .rsize(5) 
+  .delay(0.3)
+  .delaytime(0.4)
+  .delayfeedback(0.5)
+  .phaser(4)
+  .phaserdepth(0.8)
+  .orbit(3)
+$:note(`<
+[<~ ~>]
+[<g2>]
+[<~ ~>]
+[<e3>]
+>`).sound("triangle")
+  .delay(0.3)
+  .delaytime(0.4)
+  .delayfeedback(0.5)
+  .phaser(1.5)
+  .phaserdepth(0.8)
+  .orbit(3)
+$:note(`<
+[<d3>]
+[<c3>]
+[<d3>]
+[<c3>]
+>`).sound("triangle")
+  .delay(0.3)
+  .delaytime(0.4)
+  .delayfeedback(0.5)
+  .phaser(1.5)
+  .phaserdepth(0.8)
+  .orbit(3)
