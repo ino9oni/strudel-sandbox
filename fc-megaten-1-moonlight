@@ -1,0 +1,19 @@
+//title : 窓明り
+//composer : Masuko Tsukasa
+//strudel notes writer : ino9oni
+setcpm(50)
+$:note(`<
+[c4 e4 g4 f4 d4 b3]!8
+>`).sound("triangle")
+  .room(0.7) 
+  .rsize(5) 
+  .delay(0.3)
+  .delaytime(0.4)
+  .delayfeedback(0.5)
+  .phaser(1.5)
+  .phaserdepth(0.8)
+  .orbit(3)
+$:note(`<
+[<c2>]!4
+[<a2>]!4
+>`).sound("z_triangle").lpf(100)
