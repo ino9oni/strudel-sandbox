@@ -26,7 +26,7 @@ $:note(`<
 [[c3 c4]*4]
 [[b2 b3]*2 [e3 e4]*2]
 [[a2 a3]*4]
->`).sound("supersaw")
+>`).sound("supersaw").color("pink")._punchcard().color("cyan")
 
 $:note(`<
 [<e, b>]
@@ -37,4 +37,4 @@ $:note(`<
 [<a3, c3>]
 [<b, d>]
 [<c, a>]
->`).sound("piano")
+>`).sound("piano").color("pink")._punchcard().color("cyan")
