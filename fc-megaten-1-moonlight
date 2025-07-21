@@ -14,6 +14,6 @@ $:note(`<
   .phaserdepth(0.8)
   .orbit(3)
 $:note(`<
-[<c2>]!4
-[<a2>]!4
->`).sound("z_triangle").lpf(100)
+c2
+a2
+>/4`).sound("z_triangle").lpf(1000)
