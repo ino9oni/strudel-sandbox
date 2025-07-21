@@ -33,8 +33,8 @@ $:note(`<
 [<a, c>]
 [<b, d>]
 [<c, a>]
-[<e, c4>]
-[<a3, c3>]
-[<b, d>]
-[<c, a>]
+[<d, d4>]
+[<a4, c4>]
+[<b4, d4>]
+[<c4, a4>]
 >`).sound("piano").color("pink")._punchcard().color("cyan")
